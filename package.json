@@ -2,6 +2,7 @@
   "name": "social-media-project",
   "version": "1.0.0",
   "description": "a backend",
+  "type": "commonjs",
   "keywords": [
     "javascript",
     "and",
@@ -9,9 +10,13 @@
   ],
   "license": "ISC",
   "author": "Vedant Ahuja",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "",
+    "dev":"nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
